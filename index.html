@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DOLN$Y Refund Service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  background:linear-gradient(135deg,#2b1d12,#3a2618,#4a3522);
+  font-family:system-ui;
+  color:#fff;
+}
+
+.page{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:40px;
+}
+
+.announcement{
+  padding:14px 34px;
+  font-size:20px;
+  font-weight:900;
+  color:#c9a24d;
+  background:linear-gradient(135deg,#3a2a12,#4a3618,#3a2a12);
+  border-radius:14px;
+}
+
+.topbar{
+  display:flex;
+  gap:28px;
+  font-size:13px;
+}
+.topbar a,.topbar span{color:white;text-decoration:none}
+
+.banner{
+  width:1000px;
+  height:460px;
+  border-radius:28px;
+  background:url("https://raw.githubusercontent.com/theodore766/images/main/duck%20site%2016-9.jpg") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+}
+
+.content{padding:70px;max-width:520px}
+.brand{font-size:88px;font-weight:900}
+.service{font-size:42px}
+.big-text p{font-size:22px}
+
+.telegram-btn{
+  margin-top:30px;
+  display:inline-block;
+  background:linear-gradient(135deg,#2aabee,#1e8fcf);
+  padding:14px 26px;
+  border-radius:14px;
+  color:white;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.section-title{font-size:48px;font-weight:900}
+.center{text-align:center}
+
+.why,.vouchers,.how,.ready{width:1000px}
+
+.why-grid,.how-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+
+.why-card,.how-card{
+  background:linear-gradient(135deg,#3a2a12,#4a3618);
+  padding:26px;
+  border-radius:18px;
+  text-align:center;
+}
+
+.step{font-size:28px;font-weight:900;color:#c9a24d}
+
+.emoji{font-size:38px;margin:10px 0}
+.swipe{animation:swipe 1.8s infinite}
+.pulse{animation:pulse 1.5s infinite}
+.bounce{animation:bounce 1.6s infinite}
+.rotate{animation:rotate 2s infinite linear}
+
+/* OUR VOUCHES – FITA INFINITA */
+.vouchers{
+  display:flex;
+  gap:40px;
+  align-items:center;
+}
+
+.vouchers-right{
+  width:520px;
+  overflow:hidden;
+}
+
+.voucher-track{
+  display:flex;
+  width:max-content;
+  animation:marquee 5s linear infinite;
+}
+
+.voucher-track img{
+  width:360px;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  margin-right:20px;
+  border-radius:18px;
+  box-shadow:0 12px 30px rgba(0,0,0,.45);
+}
+
+@keyframes marquee{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
+}
+
+/* READY */
+.ready{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.ready-right{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.crypto{
+  display:flex;
+  gap:24px;
+  margin-bottom:20px;
+}
+
+.crypto img{width:56px}
+
+/* ANIMAÇÕES */
+@keyframes swipe{0%{transform:translateX(0)}50%{transform:translateX(10px)}100%{transform:translateX(0)}}
+@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.2)}100%{transform:scale(1)}}
+@keyframes bounce{0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)}}
+@keyframes rotate{to{transform:rotate(360deg)}}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="announcement">
+DON´T WASTE MONEY ON YOUR HOLIDAYS ORDERS | ONLY 20%
+</div>
+
+<div class="topbar">
+<span>HOME</span>
+<a href="https://t.me/dolneyservicesbot" target="_blank">FEATURES</a>
+<a href="https://t.me/dolneyservicesbot" target="_blank">VOUCHES</a>
+<a href="https://t.me/dolneyservicesbot" target="_blank">PROCESS</a>
+</div>
+
+<div class="banner">
+<div class="content">
+<h1 class="brand">DOLN$Y</h1>
+<h2 class="service">Refund Service</h2>
+<div class="big-text">
+<p>The Best Service in All Countries.</p>
+<p>Fast, Efficient and Guarantee</p>
+</div>
+<a class="telegram-btn" href="https://t.me/italiancorvo" target="_blank">💬 Contact on Telegram</a>
+</div>
+</div>
+
+<section class="why">
+<h2 class="section-title center">WHY CHOOSE US?</h2>
+<div class="why-grid">
+<div class="why-card"><div class="emoji swipe">💳</div><p>The Best Service in All Countries</p></div>
+<div class="why-card"><div class="emoji pulse">🛡️</div><p>Guarantee Service, we Don´t Fail</p></div>
+<div class="why-card"><div class="emoji bounce">📈</div><p>More Than 5 Years of Experience</p></div>
+<div class="why-card"><div class="emoji rotate">🕐</div><p>Support and Help with Orders 24/7</p></div>
+</div>
+</section>
+
+<section class="vouchers">
+<div class="vouchers-left">
+<h2 class="section-title">OUR VOUCHES</h2>
+<p>
+See the Best Service on Earth with a VERY Low Fee.<br><br>
+Why choose other services if our DON´T FAIL?
+Don´t lose your time and send us a message for our team help you to earn money.
+</p>
+</div>
+
+<div class="vouchers-right">
+<div class="voucher-track">
+
+<!-- IMAGENS (1x) -->
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2017.10.21.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2017.15.29.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2017.32.47.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2018.37.03.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2018.44.01.png">
+
+<!-- DUPLICADO (loop perfeito) -->
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2017.10.21.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2017.15.29.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2017.32.47.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2018.37.03.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/Captura%20de%20ecra%CC%83%202025-12-22%2C%20a%CC%80s%2018.44.01.png">
+
+</div>
+</div>
+</section>
+
+<section class="how">
+<h2 class="section-title center">HOW IT WORKS</h2>
+<div class="how-grid">
+<div class="how-card"><span class="step">1</span><h3>CONTACT US</h3><div class="emoji swipe">📨</div><p>Send us a message on telegram.</p></div>
+<div class="how-card"><span class="step">2</span><h3>ORDER & RECEIVE</h3><div class="emoji bounce">📦</div><p>Wait for delivery confirmation.</p></div>
+<div class="how-card"><span class="step">3</span><h3>GET THE REFUND</h3><div class="emoji pulse">💰</div><p>Refund processed by our team.</p></div>
+<div class="how-card"><span class="step">4</span><h3>PAYMENT</h3><div class="emoji rotate">💳</div><p>Cover the refund fee.</p></div>
+</div>
+</section>
+
+<section class="ready">
+<div class="ready-left">
+<h2 class="section-title">ARE YOU READY</h2>
+<p>Contact us on telegram to get STARTED.</p>
+</div>
+
+<div class="ready-right">
+<div class="crypto">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/btc%20sem%20fundo.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/USDT_Logo.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/eth%20sem%20fundo.png">
+<img src="https://raw.githubusercontent.com/theodore766/images/main/LTC%20SEM%20LOGO%20.png">
+</div>
+<a class="telegram-btn pulse-btn" href="https://t.me/dolneyservicesbot" target="_blank">🚀 Contact Us</a>
+</div>
+</section>
+
+</div>
+
+</body>
+</html>
